@@ -9,7 +9,7 @@ class Sq3Controller {
 
     @GetMapping("/hello/{name}") 
     public String person(@PathVariable String name) {
-        return "Hellox " + name + "!";
+        return "Hello " + name + "!";
     }
 
     @GetMapping("/")
